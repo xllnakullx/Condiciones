@@ -6,8 +6,8 @@ const select3 = document.querySelector('#select3');
 const buttonCheck = document.querySelector('#button');
 const message = document.querySelector('#message');
 
-const PASS_1= '995';
-const PASS_2 = '754';
+const PASS_1= '911';
+const PASS_2 = '714';
 
 buttonCheck.addEventListener('click', () => {
     const s1 = select1.value;
