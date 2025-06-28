@@ -17,14 +17,17 @@ Requerimientos:
 ✅ Mostrar "Llevas demasiados stickers" si el total es mayor a 10 (2 puntos)
 
    🟥  Desafío 3: Validación de Password
+   
 Objetivo:
 Utilizar 3 <select> con dígitos del 1 al 9. Al presionar el botón "Ingresar", validar si la combinación es una de las claves correctas.
+
 
 Requerimientos:
 
 ✅ Si el password es 911, mostrar "password 1 correcto" (1 punto)
 ✅ Si es 714, mostrar "password 2 es correcto" (2 puntos)
 ✅ Para cualquier otro valor, mostrar "password incorrecto" (1 punto)
+
 
 
 ▶️ Proyecto Desplegado : https://xllnakullx.github.io/Condiciones/index.html
