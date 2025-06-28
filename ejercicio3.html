@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="bg-gray-800 text-white text-center p-4 fixed w-full top-0 z-10">
+    <nav class="flex justify-center">
+      <a href="./index.html" class="text-white mx-2 hover:underline hover:underline-offset-4">Ejercicio 1</a>
+      <a href="./ejercicio2.html" class="text-white mx-2 hover:underline hover:underline-offset-4">Ejercicio 2</a>
+      <a href="./ejercicio3.html" class="text-white mx-2 hover:underline hover:underline-offset-4">Ejercicio 3</a>
+    </nav>
+  </header>
+
+  <main class="flex justify-center bg-candado pt-16 w-full h-screen">
+    <div class="p-4 flex flex-col space-y-5 content">
+      <h1 class="text-white text-2xl font-bold text-center">Ejercicio 3</h1>
+      <h3 class="text-white text-lg font-bold text-center">Ingresa el password</h3>
+
+      <div class="flex flex-col justify-center bg-gray-300 bg-opacity-75 p-8 rounded space-y-10">
+        <div class="flex justify-center">
+          <select class="rounded-l-lg p-4 border-l-4 border-t-4 border-b-4 border-solid border-gray-800" name="" id="select1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select class="p-4 border-4 border-solid border-gray-800" name="" id="select2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select class="rounded-r-lg p-4 border-r-4 border-t-4 border-b-4 border-solid border-gray-800" name="" id="select3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+
+        <p class="text-center p-0" id="message"></p>
+
+        <button id="button" class="bg-gray-800 text-white p-2 rounded hover:bg-gray-700">Ingresar</button>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/script3.js"></script>
+</body>
+
+</html>
